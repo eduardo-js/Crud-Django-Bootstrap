@@ -1,0 +1,227 @@
+body {
+    font-family: "Source Code Pro", sans-serif;
+}
+
+.bi-journal-arrow-up {
+    height: 2.5em;
+    width: 2.5em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-journal-arrow-up' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path d= 'M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z' /> <path d= 'M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z' /> <path fill-rule= 'evenodd' d= 'M8 11a.5.5 0 0 0 .5-.5V6.707l1.146 1.147a.5.5 0 0 0 .708-.708l-2-2a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L7.5 6.707V10.5a.5.5 0 0 0 .5.5z' /> </svg>");
+    mask-size: 2em 2em;
+    position: relative;
+    mask-repeat: no-repeat;
+    top: 1px;
+    background-color: black;
+}
+
+.bi-pencil-square {
+    height: 1.4em;
+    width: 1.7em;
+    mask: url("data:image/svg+xml,<svg width='1.25em' height='1.25em' viewBox='0 0 16 16' class='bi bi-pencil-square' fill= 'currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path d= 'M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z' ></path> <path fill-rule= 'evenodd' d= 'M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z' ></path> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 3px;
+    top: 1px;
+    background-color: white;
+}
+
+.bi-x-square {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1.25em' height='1.25em' viewBox='0 0 16 16' class='bi bi-x-square' fill= 'currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z' ></path> <path fill-rule= 'evenodd' d= 'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' ></path> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 3px;
+    top: 1px;
+    background-color: white;
+}
+
+.bi-file-earmark-plus-fill {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1.5em' height='1.5em' viewBox='0 0 16 16' class='bi bi-file-earmark-plus-fill' fill= 'currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM8.5 7a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V11a.5.5 0 0 0 1 0V9.5H10a.5.5 0 0 0 0-1H8.5V7z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 3px;
+    top: 1px;
+    background-color: white;
+}
+
+.bi-arrow-left-square-fill {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-arrow-left-square-fill' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.5 8.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 1px;
+    background-color: white;
+    mask-size: 1.4em 1.4em;
+}
+
+.bi-emoji-frown {
+    height: 1.2em;
+    width: 1.2em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-emoji-frown' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z' /> <path fill-rule= 'evenodd' d= 'M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683z' /> <path d= 'M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 2px;
+    background-color: grey;
+    mask-size: auto;
+}
+
+.bi-x-diamond-fill {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1.1em' height='1.1em' viewBox='0 0 16 16' class='bi bi-x-diamond-fill' fill='currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.615L8 8.707l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.615-.707L7.293 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z' ></path> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 5px;
+    background-color: black;
+    mask-size: 1em 1em;
+}
+
+.bi-briefcase {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1.1em' height='1.1em' viewBox='0 0 16 16' class='bi bi-briefcase' fill='currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z' ></path> <path fill-rule= 'evenodd' d= 'M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z' ></path> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 3px;
+    background-color: black;
+    mask-size: 1.2em 1.2em;
+}
+
+.bi-droplet-fill {
+    height: 1.2em;
+    width: 1.2em;
+    mask: url("data:image/svg+xml,<svg width='1.1em' height='1.1em' viewBox='0 0 16 16' class='bi bi-droplet-fill' fill='currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z' ></path> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 5px;
+    background-color: black;
+    mask-size: 1em 1em;
+}
+
+.bi-calendar-event {
+    height: 1.2em;
+    width: 1.2em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-calendar-event' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z' /> <path d= 'M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 5px;
+    background-color: black;
+    mask-size: 1em 1em;
+}
+
+.bi-chevron-bar-contract {
+    height: 1.2em;
+    width: 1.2em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-chevron-bar-contract' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M3.646 14.854a.5.5 0 0 0 .708 0L8 11.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zm0-13.708a.5.5 0 0 1 .708 0L8 4.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zM1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 5px;
+    background-color: black;
+    mask-size: 1em 1em;
+}
+
+
+.bi-backspace-fill {
+    height: 1.2em;
+    width: 1.2em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-backspace-fill' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 5px;
+    background-color: black;
+    mask-size: 1em 1em;
+}
+
+.bi-diamond-half {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='3em' height='1.8em' viewBox='0 0 16 16' class='bi bi-diamond-half' fill='azure' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM8 .989c.127 0 .253.049.35.145l6.516 6.516a.495.495 0 0 1 0 .7L8.35 14.866a.493.493 0 0 1-.35.145V.989z' ></path> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 1px;
+    background-color: azure;
+    mask-size: 1.5em 1.5em;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: ghostwhite;
+    text-align: center;
+
+}
+
+.bi-card-list {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1.5em' height='1.5em' viewBox='0 0 16 16' class='bi bi-card-list' fill='currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z' ></path> <path fill-rule= 'evenodd' d= 'M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z' ></path> <circle cx= '3.5' cy= '5.5' r= ' .5 ' ></circle> <circle cx= '3.5' cy= '8' r= ' .5 ' ></circle> <circle cx= '3.5' cy= '10.5' r= ' .5 ' ></circle> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 5px;
+    top: 1px;
+    background-color: azure;
+    mask-size: 1.5em 1.5em;
+}
+
+.bi-person-badge-fill {
+    height: 1.3em;
+    width: 1.3em;
+    mask: url("data:image/svg+xml,<svg width='1.2em' height='1.2em' viewBox='0 0 16 16' class='bi bi-person-badge-fill' fill='currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    background-color: black;
+    mask-size: 1.3em 1.3em;
+    display: inline-flex;
+    top: 3px;
+}
+
+.bi-at {
+    height: 1.3em;
+    width: 1.3em;
+    mask: url("data:image/svg+xml,<svg width='1.2em' height='1.2em' viewBox='0 0 16 16' class='bi bi-at' fill='currentColor' xmlns= 'http://www.w3.org/2000/svg' > <path fill-rule= 'evenodd' d= 'M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    background-color: black;
+    mask-size: 1.3em 1.3em;
+    display: inline-flex;
+    top: 5px;
+
+}
+
+
+.bi-check2-circle {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-check2-circle' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z' /> <path fill-rule= 'evenodd' d= 'M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    left: 8px;
+    top: 1px;
+    background-color: white;
+    mask-size: 1.4em 1.4em;
+}
+
+
+.bi-check-circle-fill {
+    height: 1.5em;
+    width: 1.5em;
+    mask: url("data:image/svg+xml,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-check-circle-fill' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> <path fill-rule= 'evenodd' d= 'M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z' /> </svg> ");
+    position: relative;
+    mask-repeat: no-repeat;
+    background-color: white;
+    mask-size: 1.5em 1.5em;
+    align-items: center;
+}

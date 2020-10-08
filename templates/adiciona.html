@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block body %}
+    <form action="" method="post" class="was-validated">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="modelo">Modelo <span class="bi-x-diamond-fill float-right"></span></label>
+            <input type="text" class="form-control" id="modelo" name="modelo"
+                   placeholder="Digite o modelo" required>
+            <div class="valid-feedback">Yay!</div>
+            <div class="invalid-feedback">Nay :( digite um modelo válido</div>
+        </div>
+        <div class="form-group">
+            <label for="fabricante">Fabricante<span class="bi-briefcase float-right"></span></label>
+            <input type="text" class="form-control" id="fabricante" name="fabricante"
+                   placeholder="Digite o fabricante" required>
+            <div class="valid-feedback">Yay!</div>
+            <div class="invalid-feedback">Nay :( digite um fabricante válido</div>
+        </div>
+        <div class="form-group">
+            <label for="cor">Cor<span class="bi-droplet-fill float-right"></span></label>
+
+            <input type="text" class="form-control" id="cor" name="cor"
+                   placeholder="Digite a cor" required>
+            <div class="valid-feedback">Yay!</div>
+            <div class="invalid-feedback">Nay :( digite uma cor válida</div>
+        </div>
+        <div class="form-group">
+            <label for="ano">Ano<span class="bi-calendar-event float-right"></span></label>
+            <input type="number" class="form-control" id="ano" name="ano"
+                   placeholder="Digite o ano" required>
+            <div class="valid-feedback">Yay!</div>
+            <div class="invalid-feedback">Nay :( digite um ano válido</div>
+        </div>
+
+        <div class="form-group">
+            <label for="Km">Km<span class="bi-chevron-bar-contract float-right"></span></label>
+            <input type="number" step=".1" class="form-control" id="Km" name="Km"
+                   placeholder="Digite a quilometragem" required>
+            <div class="valid-feedback">Yay!</div>
+            <div class="invalid-feedback">Nay :( digite um Km válido</div>
+        </div>
+
+        <button class="btn btn-success float-right" type="submit"><div class="bi-check-circle-fill"> </div></button>
+        <button class="btn btn-warning " type="reset" value="Limpar Campos">Limpar Campos<span
+                class="bi-backspace-fill float-right"> </span></button>
+    </form>
+
+{% endblock %}

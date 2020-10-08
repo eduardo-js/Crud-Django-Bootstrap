@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block body %}
+
+    {% if lista_itens.count > 0 %}
+        <table class="table table-hover table-responsive-sm text-center">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Cor</th>
+                <th scope="col">Ano</th>
+                <th scope="col">Fabricante</th>
+                <th scope="col">Km</th>
+                <th scope="col" colspan="2">Ações</th>
+            </tr>
+            </thead>
+
+            {% for item in lista_itens %}
+                <tbody>
+                <tr>
+                    <td scope="row">{{ item.id }}</td>
+                    <td>{{ item.modelo }}</td>
+                    <td>{{ item.cor }}</td>
+                    <td>{{ item.ano }}</td>
+                    <td>{{ item.fabricante }}</td>
+                    <td>{{ item.Km }}</td>
+                    <form>
+                        <td>
+                            <button type="submit" class="btn btn-primary btn-sm"
+                                    formaction="/editar/{{ item.id }}">Editar
+                                <span class="bi-pencil-square float-right"></span>
+
+                            </button>
+                        </td>
+                        <td>
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="return confirm('Confirma a exclusão do item {{ item.id }}?')"
+                                    formaction="/excluir/{{ item.id }}">Excluir
+                                <span class="bi-x-square float-right"></span>
+
+                            </button>
+                        </td>
+                    </form>
+                </tr>
+                </tbody>
+            {% endfor %}
+        </table>
+    {% else %}
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3>Sem itens na lista
+                    <span class="bi-emoji-frown float-right"></span>
+                </h3>
+                <br>
+            </div>
+        </div>
+    {% endif %}
+    <h5>
+        <a href="/adiciona/" class="btn btn-success float-right" role="button">Adicionar novo item <span class="bi-file-earmark-plus-fill float-right"></span>
+        </a>
+    </h5>
+{% endblock %}

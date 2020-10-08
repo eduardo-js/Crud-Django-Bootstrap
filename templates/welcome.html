@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="container h-100" style="padding-top: 1.5em">
+        <div class="row h-50 justify-content-center align-items-center">
+            <span class="bi-journal-arrow-up"></span>
+            <h1>Bem vindo</h1>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <a class="btn btn-secondary btn-block col-xs-12 col-sm-8 offset-sm-2 col-md-3 col-lg-2 offset-md-5"
+           href="lista/" role="button">Lista de Veículos</a>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <a class="btn btn-success btn-block col-xs-12 col-sm-8 offset-sm-2 col-md-3 col-lg-2 offset-md-5"
+           href="adiciona/" role="button">Adicionar Veículo</a>
+    </div>
+
+{% endblock %}

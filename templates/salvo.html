@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h1 style="text-align: center">Dados Salvos com Sucesso</h1>
+        <h4 style="text-align: center">Você será redirecionado para a página de listagem automaticamente</h4>
+    <a href="/lista" class="btn btn-secondary" role="button">Voltar para a lista <span class="bi-arrow-left-square-fill float-right"></span></a>
+    <a href="/adiciona" class="btn btn-success float-right" role="button">Adicionar novo item <span class="bi-file-earmark-plus-fill float-right"></span></a>
+    <script>
+        setTimeout(function () {
+            window.location.href = "/lista";
+        }, 5000);
+    </script>
+{% endblock %}
